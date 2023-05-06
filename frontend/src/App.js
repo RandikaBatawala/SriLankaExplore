@@ -1,78 +1,22 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './Components/header';
+import React, { Component } from "react";
+import "./App.css";
+import { Router, Link } from "@reach/router";
+import NavbarMain from "./components/Navbar";
+import Home from "./pages/Home";
+import Tour from "./pages/Tour";
 
-
-//Education and Information Management
-
-
-
-
-
-//Education and Information Management
-
-
-
-
-
-//User Profile and Inquiry Management
-
-
-
-
-
-// Safty and Security Management 
-import Alerts from './UserView/Safety and Security Management/Alerts';
-import EmergencyContacts from './UserView/Safety and Security Management/EmergencyContacts';
-import HealthAdvisories from './UserView/Safety and Security Management/HealthAdvisories';
-import SaftyTips from './UserView/Safety and Security Management/SaftyTips';
-
-
-
-
-
-
-function App() {
-  return (
-
-    <div className="App">
-      <Header />
-      <Router>
-        <Routes>
-
-
-
-        {/* Education and Information Management */}
-
-
-
-
-
-        {/* Education and Information Management */}
-
-
-
-
-
-        {/* User Profile and Inquiry Management */}
-
-
-
-
-
-        {/* Safty and Security Management  */}
-          <Route path="/SafeGuide/Alerts" element={<Alerts />} />
-          <Route path="/SafeGuide/EmergencyContacts" element={<EmergencyContacts />} />
-          <Route path="/SafeGuide/HealthAdvisories" element={<HealthAdvisories />} />
-          <Route path="/SafeGuide/SaftyTips" element={<SaftyTips />} />
-
-        </Routes>
-      </Router>
-
-    </div>
-
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <NavbarMain />
+        <Router>
+          <Home path="/" />
+          <Tour path="tour" />
+        </Router>
+      </div>
+    );
+  }
 }
 
 export default App;
-
