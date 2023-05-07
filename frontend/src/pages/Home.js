@@ -5,7 +5,7 @@ import About from "../components/About";
 import Package from "../components/Package";
 import Services from "../components/Services";
 import Contact from "../components/Contact";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 
 class Home extends Component {
   render() {
