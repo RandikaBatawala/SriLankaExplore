@@ -23,6 +23,9 @@ import imgCard18 from "../img/F_Aluwa.jpg";
 import imgCard19 from "../img/F_Curd and treacle.jpg";
 import imgCard20 from "../img/F_Kiribath.jpg";
 import imgCard21 from "../img/F_Sri Lankan Crab Curry.jpg";
+import imgCard22 from "../img/H_sigiriya.jpg";
+import imgCard23 from "../img/H_katharagama.jpg";
+import imgCard24 from "../img/H_yapahuwa.jpg";
 
 const tours = [
   {
@@ -192,8 +195,31 @@ const tours = [
     alt: "camping in the lake",
     title: "Sri Lankan Crab Curry",
     subtitle: "This famous Sri Lankan curry is made with a combination of crab meat"
+  },
+  {
+    id: 22,
+    category: ["historical places"],
+    img: imgCard22,
+    alt: "camping in the lake",
+    title: "Sigiriya",
+    subtitle: "Its King, Kasyapa (477-495AD) reigned from this fortress, which was also his palace"
+  },
+  {
+    id: 23,
+    category: ["historical places"],
+    img: imgCard23,
+    alt: "camping in the lake",
+    title: "Katharagama",
+    subtitle: "If veneration takes you anywhere in Sri Lanka, then Kataragama should be your first place to visit"
+  },
+  {
+    id: 24,
+    category: ["historical places"],
+    img: imgCard24,
+    alt: "camping in the lake",
+    title: "Yapahuwa",
+    subtitle: "Yapahuwa is a 300ft rock fortress that was once home to Buddha’s Sacred Tooth Relic and also the capital of Sri Lanka"
   }
-
 
 
 
@@ -209,7 +235,8 @@ const itemCategories = [
   "camping",
   "honeymoon",
   "cultural item",
-  "traditional food"
+  "traditional food",
+  "historical places"
 ];
 
 class Package extends Component {
