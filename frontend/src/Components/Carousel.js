@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import beach from "../img/beach.jpg";
+import beach from "../img/bg.png";
 import resort from "../img/resort.jpg";
 import camp from "../img/camp.jpg";
 import mountain from "../img/mountain.jpg";

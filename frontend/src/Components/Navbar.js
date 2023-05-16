@@ -37,19 +37,33 @@ class NavbarMain extends React.Component {
           className="navDark"
         >
           <Container>
-            <NavbarBrand href="#">Manila Tourism</NavbarBrand>
+            <NavbarBrand href="#">SriLanka Explore</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
+               
+                <NavItem>
+                  <NavLink href="#servicesBody">Cultural Item</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="#servicesBody">Historical Places</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="#servicesBody">Traditional Food</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="#servicesBody">Activities</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="#servicesBody">Destination</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="#servicesBody">Safe Guide</NavLink>
+                </NavItem>
                 <NavItem>
                   <NavLink href="#about">About</NavLink>
                 </NavItem>
-                <NavItem>
-                  <NavLink href="#packageBody">Package</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="#servicesBody">Services</NavLink>
-                </NavItem>
+                
                 <NavItem>
                   <NavLink href="#contactBody">Contact</NavLink>
                 </NavItem>

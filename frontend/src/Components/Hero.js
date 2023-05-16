@@ -6,7 +6,7 @@ const Hero = () => (
     <main className="cover-page" id="hero">
       <section className="wrapped-page">
         <div className="item-center">
-          <h1>Manila Tourism</h1>
+          <h1>Sri Lanka Explore</h1>
           <h3>Tours | Travel | Guide</h3>
           <Button outline color="warning" href="#about">
             Explore More
